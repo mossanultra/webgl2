@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "メイリオ", serif;
+}
+
+body {
+  color: white;
+  overflow-x: hidden;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+main {
+  position: absolute;
+  width: 100vw;
+  height: 200vh;
+  z-index: 100;
+  justify-content: center;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 70px;
+}
+
+section {
+  min-height: 100vh;
+  padding: 20px;
+  font-size: 3.5rem;
+}
+
+a {
+  display: block; /* 各リンクを改行 */
+  color: white; /* リンクの色 */
+  text-decoration: none; /* 下線を削除 */
+  margin: 10px 0; /* 各リンク間にスペースを追加 */
+  transition: color 0.3s ease; /* 色変更時のアニメーション */
+}
+
+a:hover {
+  color: #ffcc00; /* ホバー時の色変更 */
+}
